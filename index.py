@@ -39,7 +39,7 @@ Label(toolbar_cont, text="Range").grid(column=0, row=0, sticky="W")
 
 
 def validate_num(cad):
-    return cad.isdecimal() or cad == '-' or cad == '.'
+    return cad.isdecimal() or cad == '-' 
 
 
 def validate_num2(cad):
